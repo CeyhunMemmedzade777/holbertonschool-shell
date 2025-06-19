@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#task2
+#shellcheck disable=SC2034
+x=1
+until [ $x -gt 10 ]; do
+    echo "Best School"
+    ((x++))
+done
