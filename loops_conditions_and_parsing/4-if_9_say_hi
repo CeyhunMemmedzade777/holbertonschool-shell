@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#task3
+#shellcheck disable=SC2034
+x=1
+while [ $x -le 11 ]; do
+  if [ $x -eq 10 ]; then
+    echo "Hi"
+  else
+    echo "Best School"
+  fi
+  ((x++))
+done
