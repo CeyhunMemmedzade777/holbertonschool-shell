@@ -10,5 +10,4 @@ while [ $hour -le 12 ]; do
       ((minute++))
    done
    ((hour++))
-done | head -n 70
-
+done | timeout 30 head -n 70
