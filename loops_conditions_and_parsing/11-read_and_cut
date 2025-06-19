@@ -2,7 +2,5 @@
 #task10
 #shellcheck disable=SC2034
 while IFS=: read -r username password uid gid fullname homedir shell; do
-    echo "$username"
-    echo "$uid"
-    echo "$homedir"
+    echo "$username;$uid;$homedir"
 done < /etc/passwd
