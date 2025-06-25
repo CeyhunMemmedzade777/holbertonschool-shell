@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #task6
 #shellcheck disable=SC2034
-pkill 4-to_infinity_and_beyond
+pkill -9 4-to_infinity_and_beyond
