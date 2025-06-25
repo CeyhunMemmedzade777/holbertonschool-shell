@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #task8
+shellcheck disable=SC2034
 kill -9 $(pgrep -f '7-highlander')
